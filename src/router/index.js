@@ -24,6 +24,11 @@ export default new Router({
     //   component: HelloWorld
     // },
     {
+      path: '/vueApp',
+      name: 'HomePage',
+      component: HomePage
+    },
+    {
       path: '/',
       name: 'HomePage',
       component: HomePage
